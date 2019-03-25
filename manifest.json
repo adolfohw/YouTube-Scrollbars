@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "YouTube Scrollbars",
+	"version": "2.1.0",
+
+	"description": "Makes YouTube's scrollbars more discreet",
+
+	"content_scripts": [
+		{
+			"matches": ["*://*.youtube.com/*"],
+			"js": ["scrollbars.js"]
+		}
+	],
+
+	"web_accessible_resources": [
+		"scrollbars.css"
+	]
+}

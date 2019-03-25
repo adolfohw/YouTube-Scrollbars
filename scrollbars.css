@@ -1,0 +1,9 @@
+body * {
+	scrollbar-width: thin;
+	scrollbar-color: var(--yt-spec-10-percent-layer) var(--yt-dialog-background);
+}
+
+iron-list,
+#guide-inner-content {
+	scrollbar-color: var(--yt-spec-10-percent-layer) transparent;
+}
